@@ -1,0 +1,131 @@
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px #b1b0b0;
+    z-index: 1;
+    background-color: #f9f9f9;
+    color: #252422;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#brand{
+    z-index: 2;
+    position: relative;
+    top: 4px;
+    left: -64px;
+    color: #444444;
+    text-shadow: 3px 3px 5px #a3def1, 0 0 0.4em #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#icon {
+    height: 60px;
+    width: auto;
+    margin-left: 20px;
+}
+.links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.links a{
+    padding: 15px;
+    text-decoration: none;
+    color: #252422;
+    font-size: 17px;
+}
+
+.links a:hover{
+    background-color:#8a8a8a;
+    color: #73d9fc;
+}
+
+.search{
+    outline: 1px solid #b1b0b0;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+}
+.search input{
+    border: none;
+    width: 500px;
+    padding-left: 6px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+
+.search input:focus{
+    outline: none;
+}
+#search-button{
+    background-color: #252422;
+    padding: 5px;
+    color: #fffcf2;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+#search-button:hover{
+    background-color: #0096c7;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    width: 140px;
+}
+.main {
+    background-color: #FFFFFF;
+}
+.footer{
+    background-color: #444444;
+    color: #f5f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer a{
+    color: #0096c7;
+}
+
+#sub-left{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sub-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    background-color: #FFFFFF;
+    color: #444444;
+}
+
+#sub-right h1{
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    color: #0096c7;
+}
+
+
+#sub-right a{
+    color: #0096c7;
+}
+#desktop{
+    width: 100%;
+    height: auto;
+}
