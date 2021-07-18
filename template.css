@@ -12,7 +12,7 @@ html, body{
     display: grid;
     height: 100%;
     grid-template-columns: auto 80% auto;
-    grid-template-rows: 10% 80% auto;
+    grid-template-rows: 10% auto 10%;
 }
 
 .nav{
